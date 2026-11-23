@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JEJAKMAKER — Konveksi Partai & Custom Kaos, Hoodie, Sweater, Crewneck</title>
+  <meta name="description" content="JEJAKMAKER adalah jasa konveksi partai besar dan custom berbagai jenis baju, kaos, hoodie, sweater, crewneck, hingga seragam & maklon brand di Pabedilan, Cirebon. Melayani pengiriman seluruh Indonesia." />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome untuk ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet utama -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== 1. STICKY NAVBAR ==================== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#" class="brand">
+          <div class="brand-mark">JM</div>
+          <div>
+            <span class="brand-name">JEJAK<span>MAKER</span></span>
+            <span class="brand-tag">Konveksi Partai & Custom Apparel</span>
+          </div>
+        </a>
+
+        <nav class="nav-desktop">
+          <a href="#katalog">Layanan & Produk</a>
+          <a href="#spesifikasi">Bahan & Sablon</a>
+          <a href="#alur-order">Alur Order</a>
+          <a href="#simulasi">Simulasi Penawaran</a>
+          <a href="#lokasi-faq">Lokasi & FAQ</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="btn btn-primary btn-wa-header"
+             href="https://wa.me/6285860222861?text=Halo%20JEJAKMAKER%2C%20saya%20ingin%20konsultasi%20pemesanan%20konveksi%20partai."
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span class="txt-long">Konsultasi WA</span>
+            <span class="txt-short">Chat WA</span>
+          </a>
+
+          <button id="mobile-menu-btn" class="menu-toggle" type="button" aria-label="Buka Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#katalog" class="mobile-link">Layanan & Produk</a>
+      <a href="#spesifikasi" class="mobile-link">Bahan & Sablon</a>
+      <a href="#alur-order" class="mobile-link">Alur Order</a>
+      <a href="#simulasi" class="mobile-link">Simulasi Penawaran</a>
+      <a href="#lokasi-faq" class="mobile-link">Lokasi Workshop & FAQ</a>
+    </div>
+  </header>
+
+  <!-- ==================== 2. HERO ==================== -->
+  <section class="hero bg-grid">
+    <div class="hero-glow hero-glow--a"></div>
+    <div class="hero-glow hero-glow--b"></div>
+
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Kiri: copywriting -->
+        <div class="hero-copy">
+          <div class="badge-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Workshop Konveksi Cirebon — Melayani Pengiriman Seluruh Indonesia</span>
+          </div>
+
+          <h1>
+            Vendor Konveksi Partai & Custom
+            <span class="gradient-text">Kaos, Hoodie, Sweater, Crewneck & Berbagai Baju</span>
+          </h1>
+
+          <p class="hero-lead">
+            <strong>JEJAKMAKER</strong> siap menjadi mitra produksi massal Anda untuk kebutuhan seragam perusahaan, kaos event, komunitas, instansi sekolah/kampus, hingga maklon <em>brand clothing</em>. Jahitan rapi standar garment, pilihan bahan lengkap, harga grosir bersaing, dan komitmen tepat <em>deadline</em>.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#simulasi" class="btn btn-primary">
+              <i class="fa-solid fa-calculator"></i>
+              <span>Minta Penawaran Partai</span>
+            </a>
+            <a href="https://wa.me/6285860222861?text=Halo%20JEJAKMAKER%2C%20saya%20tertarik%20order%20konveksi%20partai.%20Boleh%20minta%20info%20pricelist%3F"
+               target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Chat WhatsApp Langsung</span>
+            </a>
+          </div>
+
+          <div class="hero-quick">
+            <span><i class="fa-solid fa-check-circle"></i> Bisa Custom Desain & Bahan</span>
+            <span><i class="fa-solid fa-check-circle"></i> Sablon Plastisol, DTF & Bordir Komputer</span>
+            <span><i class="fa-solid fa-check-circle"></i> WA: 0858-6022-2861</span>
+          </div>
+        </div>
+
+        <!-- Kanan: kartu standar produksi -->
+        <div class="hero-side">
+          <div class="std-card">
+            <div class="std-head">
+              <div>
+                <p class="std-eyebrow">Standar Produksi</p>
+                <h2 class="std-title">JEJAKMAKER Garment</h2>
+              </div>
+              <span class="badge-open"><i class="fa-solid fa-circle"></i> Slot Produksi Buka</span>
+            </div>
+
+            <div class="std-list">
+              <div class="std-item">
+                <div class="icon-box icon-box--amber"><i class="fa-solid fa-shirt"></i></div>
+                <div>
+                  <h3>Lini Produk Lengkap</h3>
+                  <p>Kaos Oblong/Oversized, Polo, Hoodie, Sweater, Crewneck, Kemeja PDH/PDL & Maklon Brand.</p>
+                </div>
+              </div>
+              <div class="std-item">
+                <div class="icon-box icon-box--orange"><i class="fa-solid fa-layer-group"></i></div>
+                <div>
+                  <h3>Kapasitas Skala Partai</h3>
+                  <p>Melayani pesanan mulai 2 lusin (24 pcs), ratusan hingga ribuan pcs dengan harga grosir berjenjang.</p>
+                </div>
+              </div>
+              <div class="std-item">
+                <div class="icon-box icon-box--sky"><i class="fa-solid fa-award"></i></div>
+                <div>
+                  <h3>Quality Control Ketat</h3>
+                  <p>Pengecekan jahitan rantai, overdeck, hasil sablon/bordir, hingga setrika uap & packaging rapi.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="std-foot">
+              <span><i class="fa-solid fa-map-pin"></i>Pabedilan, Kab. Cirebon</span>
+              <a href="#lokasi-faq">Lihat Alamat Lengkap →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Highlight -->
+      <div class="highlights">
+        <div class="highlight">
+          <div class="highlight-icon"><i class="fa-solid fa-scissors"></i></div>
+          <h3>Jahitan Standar Distro</h3>
+          <p>Jahit rantai pundak, overdeck rapi, pola nyaman dipakai.</p>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon is-orange"><i class="fa-solid fa-swatchbook"></i></div>
+          <h3>Bahan & Sablon Lengkap</h3>
+          <p>Combed, Fleece, Terry, Drill hingga Plastisol, DTF & Bordir.</p>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon"><i class="fa-solid fa-industry"></i></div>
+          <h3>Kapasitas Produksi Partai</h3>
+          <p>Siap kejar target event, instansi, komunitas & perusahaan.</p>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon is-orange"><i class="fa-solid fa-truck-fast"></i></div>
+          <h3>Kirim Seluruh Indonesia</h3>
+          <p>Ekspedisi kargo darat/udara aman & tarif ekonomis dari Cirebon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. KATALOG PRODUK ==================== -->
+  <section id="katalog" class="section section--white">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow eyebrow--light">Katalog Produksi Partai</span>
+        <h2 class="section-title">Custom Berbagai Jenis Baju, Kaos, Hoodie, Sweater & Crewneck</h2>
+        <p class="section-desc">Pilih kategori pakaian yang ingin Anda produksi dalam jumlah partai. Semua model, warna kain, ukuran, hingga titik sablon/bordir bisa disesuaikan dengan kebutuhan Anda.</p>
+      </div>
+
+      <div class="catalog-grid">
+
+        <!-- Kartu 1: Kaos -->
+        <div class="product-card">
+          <div>
+            <div class="product-top">
+              <div class="product-icon"><i class="fa-solid fa-shirt"></i></div>
+              <span class="pill pill--gray">Best Seller Partai</span>
+            </div>
+            <h3>Kaos Custom</h3>
+            <p class="product-desc">Produksi kaos oblong reguler, <em>oversized tee</em>, kaos lengan panjang, raglan, hingga polo shirt berkerah untuk event, panitia, promosi, dan komunitas.</p>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-check"></i> Cotton Combed 20s, 24s, 30s & Heavyweight</li>
+              <li><i class="fa-solid fa-check"></i> Lacoste CVC / Cotton Pique (untuk Polo)</li>
+              <li><i class="fa-solid fa-check"></i> Sablon Plastisol, DTF, Discharge / Bordir</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-dark" onclick="selectProductAndScroll('Kaos Custom')">
+            <span>Tanya Harga Partai</span><i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Kartu 2: Hoodie -->
+        <div class="product-card">
+          <div>
+            <div class="product-top">
+              <div class="product-icon"><i class="fa-solid fa-user-ninja"></i></div>
+              <span class="pill pill--amber">Komunitas & Brand</span>
+            </div>
+            <h3>Hoodie Custom</h3>
+            <p class="product-desc">Pembuatan <em>Pullover Hoodie</em> maupun <em>Zipper Hoodie</em> (resleting) dengan cutting modern, nyaman, hangat, dan detail aksesoris tali/eyelet rapi.</p>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-check"></i> Cotton Fleece Tebal (280–330 gsm) & CVC Fleece</li>
+              <li><i class="fa-solid fa-check"></i> Baby Terry lembut & breathable</li>
+              <li><i class="fa-solid fa-check"></i> Aplikasi Sablon High-Density / Bordir Komputer</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-dark" onclick="selectProductAndScroll('Hoodie Custom')">
+            <span>Tanya Harga Partai</span><i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Kartu 3: Sweater & Crewneck -->
+        <div class="product-card">
+          <div>
+            <div class="product-top">
+              <div class="product-icon"><i class="fa-solid fa-vest-patches"></i></div>
+              <span class="pill pill--gray">Casual & Angkatan</span>
+            </div>
+            <h3>Sweater & Crewneck Custom</h3>
+            <p class="product-desc">Sweater crewneck tanpa kupluk dengan rib kerah, lengan, dan pinggang elastis presisi. Cocok untuk jaket angkatan, seragam kantor kasual, dan <em>merchandise</em>.</p>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-check"></i> Cotton Fleece & Baby Terry Premium</li>
+              <li><i class="fa-solid fa-check"></i> Rib Bur Tebal Tidak Mudah Melar</li>
+              <li><i class="fa-solid fa-check"></i> Tersedia Cutting Regular maupun Boxy/Oversize</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-dark" onclick="selectProductAndScroll('Sweater & Crewneck Custom')">
+            <span>Tanya Harga Partai</span><i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Kartu 4: Baju & Seragam -->
+        <div class="product-card">
+          <div>
+            <div class="product-top">
+              <div class="product-icon"><i class="fa-solid fa-user-tie"></i></div>
+              <span class="pill pill--gray">Instansi & Perusahaan</span>
+            </div>
+            <h3>Berbagai Jenis Baju & Seragam</h3>
+            <p class="product-desc">Menerima pembuatan kemeja PDH/PDL, seragam kerja pabrik/kantor, baju komunitas, jersey/apparel event olahraga, hingga rompi dan jaket organisasi.</p>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-check"></i> American Drill, Nagata Drill & Ripstop</li>
+              <li><i class="fa-solid fa-check"></i> Bordir Komputer Logo & Nama Presisi</li>
+              <li><i class="fa-solid fa-check"></i> Custom Saku, Scotchlite & Variasi Warna</li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-dark" onclick="selectProductAndScroll('Baju / Seragam PDH-PDL')">
+            <span>Tanya Harga Partai</span><i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Kartu 5: Maklon (lebar 2 kolom) -->
+        <div class="product-card product-card--feature">
+          <div class="feature-grid">
+            <div class="feature-main">
+              <div class="feature-badge"><i class="fa-solid fa-tags"></i> Mitra Produksi Brand</div>
+              <h3>Jasa Maklon Brand Clothing (Full-Order Production)</h3>
+              <p class="product-desc">Punya <em>brand clothing</em> atau toko distro sendiri? Serahkan proses produksinya kepada <strong>JEJAKMAKER</strong>. Kami mengerjakan <em>full-order</em> mulai dari pengadaan bahan, pola & <em>cutting</em>, sablon/bordir, jahit, pemasangan label merek Anda sendiri, hingga lipat & <em>packaging</em> siap jual.</p>
+              <div class="feature-checks">
+                <span><i class="fa-solid fa-check"></i> Pasang Woven Label & Hangtag</span>
+                <span><i class="fa-solid fa-check"></i> Pola Custom Sesuai Size Chart Brand</span>
+                <span><i class="fa-solid fa-check"></i> Kerahasiaan Desain Terjamin</span>
+                <span><i class="fa-solid fa-check"></i> QC & Steam Finishing Siap Jual</span>
+              </div>
+            </div>
+            <div class="feature-side">
+              <div class="feature-cta">
+                <div class="feature-cta-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+                <p>Konsultasikan spesifikasi artikel brand Anda bersama tim produksi kami.</p>
+                <button type="button" class="btn btn-primary" onclick="selectProductAndScroll('Maklon Brand Clothing')">Konsultasi Maklon</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 4. SPESIFIKASI ==================== -->
+  <section id="spesifikasi" class="section section--gray section--specs">
+    <div class="container">
+      <div class="section-head section-head--md">
+        <span class="eyebrow eyebrow--dark">Standar Teknis Material</span>
+        <h2 class="section-title">Pilihan Bahan Kain & Teknik Sablon / Bordir</h2>
+        <p class="section-desc">Transparansi spesifikasi material agar hasil produksi sesuai anggaran dan standar kenyamanan pemakai.</p>
+      </div>
+
+      <div class="tabs">
+        <button type="button" id="tab-btn-bahan" class="tab-btn is-active" onclick="switchSpecTab('bahan')">
+          <i class="fa-solid fa-scroll"></i>Jenis Bahan Kain
+        </button>
+        <button type="button" id="tab-btn-aplikasi" class="tab-btn" onclick="switchSpecTab('aplikasi')">
+          <i class="fa-solid fa-fill-drip"></i>Teknik Sablon & Bordir
+        </button>
+      </div>
+
+      <!-- Tab 1: Bahan -->
+      <div id="tab-content-bahan" class="spec-grid spec-grid--3">
+        <div class="spec-card">
+          <div class="spec-card-head"><h3>Cotton Combed 24s & 30s</h3><span class="tag tag--amber">Kaos</span></div>
+          <p>100% serat kapas alami yang halus, adem, menyerap keringat dengan baik, dan tidak berbulu. <strong>30s</strong> lebih tipis/ringan, sedangkan <strong>24s</strong> berketebalan pas dan tidak menerawang.</p>
+        </div>
+        <div class="spec-card">
+          <div class="spec-card-head"><h3>Cotton Heavyweight (16s / 20s)</h3><span class="tag tag--amber">Oversized</span></div>
+          <p>Kain katun tebal dengan struktur kokoh dan jatuh (<em>drape</em>) yang tegas. Sangat populer untuk potongan <em>oversized tee</em>, kaos distro premium, dan <em>brand streetwear</em>.</p>
+        </div>
+        <div class="spec-card">
+          <div class="spec-card-head"><h3>Cotton Fleece & CVC Fleece</h3><span class="tag tag--dark">Hoodie / Sweater</span></div>
+          <p>Bagian luar halus dan bagian dalam berbulu lembut (<em>fleece</em>) yang hangat serta empuk. Ideal untuk hoodie, zipper hoodie, dan crewneck berkualitas tinggi.</p>
+        </div>
+        <div class="spec-card">
+          <div class="spec-card-head"><h3>Baby Terry</h3><span class="tag tag--dark">Crewneck / Hoodie</span></div>
+          <p>Tekstur bagian dalam berbentuk loop lembut (tidak berbulu tebal), lebih ringan dan adem dipakai di iklim tropis dibanding fleece. Cocok untuk crewneck harian & jaket angkatan.</p>
+        </div>
+        <div class="spec-card">
+          <div class="spec-card-head"><h3>American & Nagata Drill</h3><span class="tag tag--sky">Kemeja PDH/PDL</span></div>
+          <p>Kain tenun serat diagonal yang kuat, tahan gesekan, warna tidak mudah pudar, dan tetap rapi. Standar utama untuk seragam kerja kantor, lapangan (PDL), maupun kampus/organisasi.</p>
+        </div>
+        <div class="spec-card">
+          <div class="spec-card-head"><h3>Lacoste CVC & Cotton Pique</h3><span class="tag tag--emerald">Polo Shirt</span></div>
+          <p>Rajutan berpori khas kaos kerah (<em>polo shirt</em>) yang memberi kesan semi-formal, rapi, dan berwibawa untuk seragam perusahaan, panitia event, dan staf.</p>
+        </div>
+      </div>
+
+      <!-- Tab 2: Sablon & Bordir -->
+      <div id="tab-content-aplikasi" class="spec-grid spec-grid--4" hidden>
+        <div class="spec-card spec-card--icon">
+          <div class="spec-icon"><i class="fa-solid fa-paint-roller"></i></div>
+          <h3>Sablon Plastisol</h3>
+          <p>Tinta berbasis minyak standar distro internasional. Warna sangat pekat, tajam, elastis, tidak mudah retak, dan sangat awet dicuci berkali-kali.</p>
+        </div>
+        <div class="spec-card spec-card--icon">
+          <div class="spec-icon"><i class="fa-solid fa-print"></i></div>
+          <h3>Sablon DTF High-Res</h3>
+          <p><em>Direct Transfer Film</em> dengan resolusi tinggi. Solusi terbaik untuk desain <em>full-color</em>, gradasi foto, dan detail kecil yang rumit dengan pengerjaan cepat.</p>
+        </div>
+        <div class="spec-card spec-card--icon">
+          <div class="spec-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>Sablon Discharge</h3>
+          <p>Teknik cabut warna yang membuat tinta meresap menyatu ke dalam serat kain katun. Hasilnya lembut tanpa terasa tebal saat diraba dan tetap sejuk dipakai.</p>
+        </div>
+        <div class="spec-card spec-card--icon">
+          <div class="spec-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h3>Bordir Komputer Presisi</h3>
+          <p>Menggunakan mesin bordir komputer otomatis untuk kerapatan benang yang presisi, timbul, rapi, dan mewah pada hoodie, crewneck, polo, hingga kemeja seragam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5. FORM PENAWARAN ==================== -->
+  <section id="simulasi" class="section section--dark bg-grid">
+    <div class="container container--narrow">
+      <div class="section-head section-head--sm">
+        <span class="eyebrow eyebrow--glow">Form Request Quotation</span>
+        <h2 class="section-title">Simulasi & Permintaan Penawaran Partai</h2>
+        <p class="section-desc">Isi rincian rencana produksi Anda di bawah ini. Sistem akan menyusun format penawaran rapi dan langsung menghubungkan Anda ke WhatsApp admin <strong>JEJAKMAKER</strong>.</p>
+      </div>
+
+      <div class="form-card">
+        <form id="quote-form">
+          <div class="form-grid">
+            <div>
+              <label for="client-name" class="form-label">Nama Anda / Instansi / Brand <span class="req">*</span></label>
+              <input type="text" id="client-name" class="form-control" required placeholder="Contoh: Budi / Panitia Event Cirebon / Brand X" />
+            </div>
+
+            <div>
+              <label for="product-type" class="form-label">Jenis Produk yang Dipesan <span class="req">*</span></label>
+              <select id="product-type" class="form-control" required>
+                <option value="Kaos Custom">Kaos Custom (Oblong / Oversized / Polo)</option>
+                <option value="Hoodie Custom">Hoodie Custom (Pullover / Zipper)</option>
+                <option value="Sweater & Crewneck Custom">Sweater / Crewneck Custom</option>
+                <option value="Baju / Seragam PDH-PDL">Baju / Seragam PDH-PDL / Komunitas</option>
+                <option value="Maklon Brand Clothing">Maklon Brand Clothing (Full-Order)</option>
+                <option value="Campuran / Jenis Baju Lainnya">Campuran / Jenis Baju Lainnya</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="fabric-type" class="form-label">Pilihan Jenis Bahan (Opsional)</label>
+              <select id="fabric-type" class="form-control">
+                <option value="Belum Pasti / Minta Rekomendasi Admin">Belum Pasti / Minta Rekomendasi Admin</option>
+                <option value="Cotton Combed 24s">Cotton Combed 24s</option>
+                <option value="Cotton Combed 30s">Cotton Combed 30s</option>
+                <option value="Cotton Heavyweight (16s / 20s)">Cotton Heavyweight (16s / 20s)</option>
+                <option value="Cotton Fleece / CVC Fleece">Cotton Fleece / CVC Fleece (Hoodie/Sweater)</option>
+                <option value="Baby Terry">Baby Terry (Crewneck/Sweater)</option>
+                <option value="Lacoste CVC / Cotton Pique">Lacoste CVC / Cotton Pique (Polo)</option>
+                <option value="American / Nagata Drill">American / Nagata Drill (Seragam/Kemeja)</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="print-type" class="form-label">Teknik Sablon / Bordir</label>
+              <select id="print-type" class="form-control">
+                <option value="Sablon Plastisol">Sablon Plastisol</option>
+                <option value="Sablon DTF High-Res">Sablon DTF High-Res</option>
+                <option value="Sablon Discharge">Sablon Discharge</option>
+                <option value="Bordir Komputer">Bordir Komputer</option>
+                <option value="Kombinasi Sablon & Bordir">Kombinasi Sablon & Bordir</option>
+                <option value="Polos / Belum Pasti">Polos / Belum Pasti</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="order-qty" class="form-label">Estimasi Jumlah Pesanan (Partai) <span class="req">*</span></label>
+              <select id="order-qty" class="form-control" onchange="toggleCustomQtyInput()">
+                <option value="24 - 49 pcs (2 - 4 Lusin)">24 - 49 pcs (2 - 4 Lusin)</option>
+                <option value="50 - 99 pcs">50 - 99 pcs</option>
+                <option value="100 - 299 pcs" selected>100 - 299 pcs</option>
+                <option value="300 - 500+ pcs">300 - 500+ pcs</option>
+                <option value="custom">Input Jumlah Spesifik...</option>
+              </select>
+              <input type="number" id="custom-qty-input" class="form-control form-control--custom" min="12" placeholder="Masukkan jumlah pcs (misal: 150)" hidden />
+            </div>
+
+            <div>
+              <label for="deadline-date" class="form-label">Target Tanggal Selesai / Dipakai</label>
+              <input type="date" id="deadline-date" class="form-control" />
+            </div>
+          </div>
+
+          <div>
+            <label for="order-notes" class="form-label">Catatan Tambahan / Detail Warna / Link Desain (Opsional)</label>
+            <textarea id="order-notes" class="form-control" rows="3" placeholder="Contoh: Warna hitam, sablon depan A4 & punggung A3, kirim ke Bandung. Atau tempel link Google Drive desain Anda di sini."></textarea>
+          </div>
+
+          <div id="form-feedback" class="form-feedback" hidden></div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary btn-submit">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Kirim Permintaan Penawaran ke WhatsApp</span>
+            </button>
+            <p class="form-note">Gratis konsultasi spesifikasi bahan, estimasi harga grosir, dan pembuatan mockup desain sebelum produksi.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 6. ALUR ORDER ==================== -->
+  <section id="alur-order" class="section section--white">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow eyebrow--light">Workflow Terstruktur</span>
+        <h2 class="section-title">5 Langkah Mudah Order Konveksi Partai</h2>
+        <p class="section-desc">Alur kerja transparan dari awal konsultasi hingga pesanan tiba di lokasi Anda.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <h3>Konsultasi & Mockup Desain</h3>
+          <p>Diskusikan model baju, bahan, jumlah pcs, dan kirim file desain untuk dibuatkan simulasi mockup digital.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <h3>Rincian Penawaran & DP</h3>
+          <p>Kami kirimkan rincian harga partai (quotation/invoice). Setelah cocok, lakukan pembayaran DP untuk mengunci jadwal produksi.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <h3>Cutting, Sablon/Bordir & Jahit</h3>
+          <p>Tim produksi memotong kain sesuai size chart, memproses sablon/bordir, lalu merakit jahitan dengan standar garment.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
+          <h3>Quality Control & Finishing</h3>
+          <p>Setiap pcs melewati pembersihan benang, pengecekan detail jahitan & sablon, setrika uap, hingga packing plastik rapi.</p>
+        </div>
+        <div class="step step--final">
+          <span class="step-num">05</span>
+          <h3>Pelunasan & Pengiriman</h3>
+          <p>Foto/video hasil jadi dikirimkan kepada Anda. Setelah pelunasan, barang langsung dikirim via ekspedisi pilihan ke alamat Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 7. FAQ & LOKASI ==================== -->
+  <section id="lokasi-faq" class="section section--gray">
+    <div class="container">
+      <div class="faq-loc-grid">
+
+        <!-- FAQ -->
+        <div class="faq-col">
+          <span class="eyebrow eyebrow--dark">Tanya Jawab (FAQ)</span>
+          <h2 class="faq-title">Pertanyaan Seputar Order Partai di JEJAKMAKER</h2>
+
+          <div class="faq-list" id="faq-container">
+            <div class="faq-item">
+              <button type="button" class="faq-q is-open" id="faq-btn-0" onclick="toggleFaq(0)">
+                <span>Berapa minimal order (MOQ) untuk pesanan konveksi partai?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="faq-a" id="faq-body-0">Untuk harga konveksi/partai, minimal order mulai dari <strong>24 pcs (2 lusin) per desain</strong>. Semakin banyak kuantitas pesanan Anda (50 pcs, 100 pcs, 300+ pcs), harga satuan akan otomatis jauh lebih hemat dengan skema harga grosir bertingkat.</div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-q" id="faq-btn-1" onclick="toggleFaq(1)">
+                <span>Berapa lama estimasi waktu pengerjaan produksi?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="faq-a" id="faq-body-1" hidden>Estimasi normal pengerjaan berkisar antara <strong>7 hingga 14 hari kerja</strong> (tergantung jumlah pesanan, tingkat kerumitan model/sablon/bordir, dan antrean produksi). Jika Anda memiliki jadwal <em>event</em> atau <em>deadline</em> mendesak, silakan informasikan sejak awal agar kami jadwalkan jalur prioritas.</div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-q" id="faq-btn-2" onclick="toggleFaq(2)">
+                <span>Bagaimana sistem pembayaran (DP & pelunasan)?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="faq-a" id="faq-body-2" hidden>Sistem pembayaran menggunakan <strong>DP (Down Payment) minimal 50%</strong> saat kesepakatan desain dan rincian invoice untuk pembelian bahan baku dan jadwal potong. Sisa pelunasan 50% dilakukan setelah produksi selesai (setelah kami kirimkan bukti foto/video hasil QC) sebelum barang dikirim.</div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-q" id="faq-btn-3" onclick="toggleFaq(3)">
+                <span>Apakah bisa membuat sampel / proofing sebelum produksi massal?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="faq-a" id="faq-body-3" hidden>Bisa. Untuk pesanan partai besar atau artikel maklon <em>brand</em>, kami menyediakan layanan pembuatan sampel fisik (<em>sample proofing</em>) terlebih dahulu agar Anda bisa mengecek kualitas bahan, ukuran, jahitan, dan hasil sablon/bordir sebelum masuk tahap produksi massal.</div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-q" id="faq-btn-4" onclick="toggleFaq(4)">
+                <span>Apakah melayani pengiriman dari Cirebon ke luar kota / luar pulau?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="faq-a" id="faq-body-4" hidden>Tentu saja. Workshop kami berlokasi strategis di Pabedilan, Kabupaten Cirebon (dekat akses jalur Pantura & Tol Trans Jawa), sehingga pengiriman partai besar ke Jabodetabek, Bandung, Jawa Tengah, Jawa Timur, maupun luar pulau sangat mudah dan hemat menggunakan ekspedisi kargo (JNE Trucking, J&T Cargo, Indah Cargo, Dakota, hingga kargo udara/laut).</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lokasi -->
+        <div class="loc-col">
+          <div class="loc-card">
+            <div class="feature-badge"><i class="fa-solid fa-industry"></i> Workshop & Produksi</div>
+            <h3>Lokasi Workshop JEJAKMAKER</h3>
+            <p class="loc-desc">Silakan kunjungi workshop kami untuk konsultasi langsung, melihat contoh bahan kain, dan sampel hasil produksi (konfirmasi jadwal via WhatsApp terlebih dahulu).</p>
+
+            <div class="loc-list">
+              <div class="loc-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <span class="loc-item-title">Alamat Lengkap:</span>
+                  <p>Jl. Siliasih, Desa Tersana, Kecamatan Pabedilan, Kabupaten Cirebon, Jawa Barat, 45193</p>
+                </div>
+              </div>
+              <div class="loc-item">
+                <i class="fa-brands fa-whatsapp"></i>
+                <div>
+                  <span class="loc-item-title">WhatsApp Admin & Pemesanan:</span>
+                  <a href="https://wa.me/6285860222861?text=Halo%20JEJAKMAKER%2C%20saya%20ingin%20konsultasi%20pesanan%20konveksi." target="_blank" rel="noopener noreferrer">0858-6022-2861</a>
+                </div>
+              </div>
+              <div class="loc-item">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <span class="loc-item-title">Jam Operasional Workshop:</span>
+                  <p>Senin – Sabtu: 08.00 – 17.00 WIB</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="loc-actions">
+              <a class="btn btn-secondary"
+                 href="https://www.google.com/maps/search/?api=1&query=Jl.+Siliasih,+Desa+Tersana,+Kecamatan+Pabedilan,+Kabupaten+Cirebon,+Jawa+Barat+45193"
+                 target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-map-location-dot"></i><span>Buka Google Maps</span>
+              </a>
+              <a class="btn btn-primary"
+                 href="https://wa.me/6285860222861?text=Halo%20JEJAKMAKER%2C%20saya%20ingin%20janji%20temu%20di%20workshop%20Tersana%20Pabedilan."
+                 target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i><span>Hubungi Admin</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 8. FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="brand-mark">JM</div>
+            <span class="brand-name">JEJAK<span>MAKER</span></span>
+          </div>
+          <p>Vendor konveksi partai & custom berbagai jenis baju, kaos, hoodie, sweater, crewneck, seragam instansi, hingga maklon brand clothing. Mengutamakan ketepatan waktu, kerapian jahitan, dan kepuasan mitra.</p>
+        </div>
+
+        <div class="footer-col footer-col--services">
+          <h4>Layanan Produksi</h4>
+          <ul>
+            <li><a href="#katalog">Kaos Custom & Polo Shirt</a></li>
+            <li><a href="#katalog">Hoodie Pullover & Zipper</a></li>
+            <li><a href="#katalog">Sweater & Crewneck Custom</a></li>
+            <li><a href="#katalog">Seragam PDH/PDL & Komunitas</a></li>
+            <li><a href="#katalog">Maklon Brand Clothing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col--contact">
+          <h4>Workshop & Kontak</h4>
+          <p><i class="fa-solid fa-location-dot"></i>Jl. Siliasih, Desa Tersana, Kecamatan Pabedilan, Kabupaten Cirebon, Jawa Barat, 45193</p>
+          <p><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/6285860222861" target="_blank" rel="noopener noreferrer">0858-6022-2861</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> JEJAKMAKER Konveksi & Custom Apparel. All rights reserved.</p>
+        <p>Melayani Pesanan Partai Cirebon & Pengiriman Seluruh Indonesia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== TOMBOL WHATSAPP MENGAMBANG ==================== -->
+  <a class="wa-float"
+     href="https://wa.me/6285860222861?text=Halo%20JEJAKMAKER%2C%20saya%20ingin%20konsultasi%20order%20konveksi%20partai."
+     target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp JEJAKMAKER">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Chat WA: 0858-6022-2861</span>
+  </a>
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script>
+    // Tahun otomatis di footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // 1. Menu mobile
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.toggle('is-open'));
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.remove('is-open'));
+    });
+
+    // 2. Pilih produk dari katalog lalu scroll ke form
+    function selectProductAndScroll(productName) {
+      const productSelect = document.getElementById('product-type');
+      for (let i = 0; i < productSelect.options.length; i++) {
+        if (productSelect.options[i].value === productName) {
+          productSelect.selectedIndex = i;
+          break;
+        }
+      }
+      document.getElementById('simulasi').scrollIntoView({ behavior: 'smooth' });
+      setTimeout(() => document.getElementById('client-name').focus(), 600);
+    }
+
+    // 3. Tab spesifikasi
+    function switchSpecTab(tabName) {
+      const isBahan = tabName === 'bahan';
+      document.getElementById('tab-btn-bahan').classList.toggle('is-active', isBahan);
+      document.getElementById('tab-btn-aplikasi').classList.toggle('is-active', !isBahan);
+      document.getElementById('tab-content-bahan').hidden = !isBahan;
+      document.getElementById('tab-content-aplikasi').hidden = isBahan;
+    }
+
+    // 4. Input jumlah spesifik
+    function toggleCustomQtyInput() {
+      const qtySelect = document.getElementById('order-qty');
+      const customInput = document.getElementById('custom-qty-input');
+      const isCustom = qtySelect.value === 'custom';
+      customInput.hidden = !isCustom;
+      customInput.required = isCustom;
+      if (isCustom) customInput.focus();
+    }
+
+    // 5. Submit form -> pesan WhatsApp
+    document.getElementById('quote-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const feedbackBox = document.getElementById('form-feedback');
+      const name = document.getElementById('client-name').value.trim();
+      const product = document.getElementById('product-type').value;
+      const fabric = document.getElementById('fabric-type').value;
+      const print = document.getElementById('print-type').value;
+      const qtySelect = document.getElementById('order-qty').value;
+      const customQty = document.getElementById('custom-qty-input').value.trim();
+      const deadlineRaw = document.getElementById('deadline-date').value;
+      const notes = document.getElementById('order-notes').value.trim();
+
+      if (!name) {
+        feedbackBox.textContent = 'Mohon isi Nama Anda / Instansi / Brand terlebih dahulu.';
+        feedbackBox.hidden = false;
+        return;
+      }
+
+      const finalQty = qtySelect === 'custom'
+        ? (customQty ? `${customQty} pcs` : 'Belum ditentukan')
+        : qtySelect;
+
+      let formattedDeadline = 'Fleksibel / Belum ditentukan';
+      if (deadlineRaw) {
+        formattedDeadline = new Date(deadlineRaw).toLocaleDateString('id-ID', {
+          day: 'numeric', month: 'long', year: 'numeric'
+        });
+      }
+
+      const waMessage =
+        `Halo *JEJAKMAKER*, saya ingin meminta penawaran harga konveksi partai dengan detail berikut:\n\n` +
+        `• *Nama / Instansi / Brand:* ${name}\n` +
+        `• *Jenis Produk:* ${product}\n` +
+        `• *Pilihan Bahan:* ${fabric}\n` +
+        `• *Sablon / Bordir:* ${print}\n` +
+        `• *Estimasi Jumlah:* ${finalQty}\n` +
+        `• *Target Selesai:* ${formattedDeadline}\n` +
+        `• *Catatan / Desain:* ${notes || '-'}\n\n` +
+        `Mohon info estimasi harga grosir dan jadwal produksinya. Terima kasih!`;
+
+      const waUrl = `https://wa.me/6285860222861?text=${encodeURIComponent(waMessage)}`;
+
+      feedbackBox.innerHTML = '<i class="fa-solid fa-circle-check"></i>Membuka WhatsApp admin JEJAKMAKER dengan rincian penawaran Anda...';
+      feedbackBox.hidden = false;
+
+      window.open(waUrl, '_blank', 'noopener,noreferrer');
+    });
+
+    // 6. Accordion FAQ
+    function toggleFaq(index) {
+      const total = 5;
+      for (let i = 0; i < total; i++) {
+        const body = document.getElementById(`faq-body-${i}`);
+        const btn = document.getElementById(`faq-btn-${i}`);
+        const open = i === index && body.hidden;
+        body.hidden = !open;
+        btn.classList.toggle('is-open', open);
+      }
+    }
+  </script>
+</body>
+</html>
